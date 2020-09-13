@@ -13,12 +13,30 @@ file write the length of the line into the output file.
 * Think about errors
 
 ## Specification
+### Processing
+An input file like
+```
+Lorem ipsum dolor sit amet, at
+etiam intellegam assueverit mel,
+veritus legendos
+abhorreant cu eum, ex pro natum
+expetendis.
+```
+is read line by line and the length of each line is written
+to an output file like so:
+```
+30
+32
+16
+31
+11
+```
 ### User Interface
 1. The program is called `countlines.py`.
 1. It will be run from the command line with one
    or two arguments.
 1. If the number of arguments is wrong, a help text reminding
-   the user of the
+   the user of the usage of arguments is printed. (see example below)
 1. The first argument is the name of the
    inputfile, the second argument is the output file.
 1. If the name of the outputfile is not specified then
@@ -77,3 +95,4 @@ ERROR: No such file or directory: 'missing\output.txt'
   [`sys.argv`](https://docs.python.org/3/library/sys.html#sys.argv)
 * [Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
 * The [`if __name__ == '__main__':` idiom](https://docs.python.org/3/library/__main__.html)
+* [Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
