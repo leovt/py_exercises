@@ -96,3 +96,4 @@ ERROR: No such file or directory: 'missing\output.txt'
 * [Reading and Writing Files](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files).
 * The [`if __name__ == '__main__':` idiom](https://docs.python.org/3/library/__main__.html)
 * [Defining Functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
+* [Removing the extension of a filename](https://docs.python.org/3/library/os.path.html#os.path.splitext)
